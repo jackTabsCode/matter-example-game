@@ -1,0 +1,44 @@
+// Folder-specific settings
+//
+// For a full list of overridable settings, and general information on folder-specific settings,
+// see the documentation: https://zed.dev/docs/configuring-zed#settings-files
+{
+	"languages": {
+		"Luau": {
+			"formatter": {
+				"external": {
+					"command": "stylua",
+					"arguments": ["-"]
+				}
+			}
+		}
+	},
+	"lsp": {
+		"luau-lsp": {
+			"settings": {
+				"luau-lsp": {
+					"diagnostics": {
+						"strictDatamodelTypes": true
+					},
+					"require": {
+						"mode": "relativeToFile",
+						"directoryAliases": {
+							"@lune": "~/.lune/.typedefs/0.8.8"
+						}
+					}
+				},
+				"ext": {
+					"roblox": {
+						"enabled": true,
+						"security_level": "roblox_script"
+					},
+					"fflags": {
+						"enable_by_default": true,
+						"sync": true
+					},
+					"prefer_worktree_binary": false
+				}
+			}
+		}
+	}
+}
