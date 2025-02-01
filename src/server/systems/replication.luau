@@ -15,6 +15,7 @@ local REPLICATED_COMPONENTS = {
 	"Target",
 	"Mothership",
 	"Spinner",
+	"Character"
 }
 
 local replicatedComponents = {}

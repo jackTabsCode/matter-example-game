@@ -6,4 +6,5 @@
 wally = "upliftgames/wally@0.3.2"
 rojo = "rojo-rbx/rojo@7.4.4"
 wally-package-types = "johnnymorganz/wally-package-types@1.4.2"
+stylua = "JohnnyMorganz/Stylua@2.0.2"
 # rojo = "rojo-rbx/rojo@6.2.0"

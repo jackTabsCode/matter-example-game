@@ -44,4 +44,8 @@ return {
 		label: string,
 	}>,
 	Spinner = Matter.component("Spinner") :: Component<{}>,
+	Character = Matter.component("Character") :: Component<{
+		player: Player
+	}>,
+	LocalCharacter = Matter.component("LocalCharacter")
 }

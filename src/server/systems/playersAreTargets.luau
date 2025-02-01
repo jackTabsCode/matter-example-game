@@ -10,6 +10,9 @@ local function playersAreTargets(world: Matter.World)
 				Components.Target(),
 				Components.Model({
 					model = character,
+				}),
+				Components.Character({
+					player = player,
 				})
 			)
 		end
